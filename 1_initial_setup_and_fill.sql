@@ -47,7 +47,7 @@ CREATE TABLE Project(
 	difficulty_category_id INT,
 	start_time DATETIME NOT NULL,
 	FOREIGN KEY (customer_id) REFERENCES Customer(customer_id),
-	FOREIGN KEY (difficulty_category_id) REFERENCES Difficulty_Category(difficulty_category_id)
+	FOREIGN KEY (difficulty_category_id) REFERENCES Difficulty_Category(dificult_category_id)
 )	
 
 CREATE TABLE Project_Perforemers(
