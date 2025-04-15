@@ -1,0 +1,2 @@
+ALTER TABLE Salary
+ADD date DATE;
